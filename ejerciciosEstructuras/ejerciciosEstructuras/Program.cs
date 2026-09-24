@@ -1,4 +1,6 @@
-﻿namespace ejerciciosEstructuras
+﻿using System.Diagnostics;
+
+namespace ejerciciosEstructuras
 {
     public class Program
     {
@@ -148,20 +150,61 @@
 
                  pila.Push("cabiar tamaño");
                   Console.WriteLine("Nueva acción: " + pila.Peek()); */
-                 
+
+
+            // EJERCICIO 5 — NAVEGADOR WEB 
 
 
 
 
+            Stack<string> pila = new Stack<string>();
+
+            pila.Push("Goggle.com");
+            pila.Push("Youtube.com");
+            pila.Push("Instagram.com");
+            pila.Push("Github.com");
+
+            Console.WriteLine("=== NAVEGADOR === \n");
+
+            Console.WriteLine("PAGINA ACTUAL:\n" + pila.Peek());
+            Console.WriteLine();
+
+            Console.WriteLine("pulsando ATRAS...\n");
+            Console.WriteLine();
+
+             pila.Pop();
+            Console.WriteLine("PAGINA ACTUAL: \n" + pila.Peek());
+            Console.WriteLine(); 
+            Console.WriteLine("pulsando ATRAS...\n");
+
+            pila.Pop();
+            Console.WriteLine("PAGINA ACTUAL: \n" + pila.Peek());
+            Console.WriteLine();
+
+            Console.WriteLine("pulsando ATRAS...\n");
+
+            pila.Push("Tiktok.com");
+            Console.WriteLine("Nueva visita:\n" + pila.Peek());
+            Console.WriteLine();
+
+           
+            Console.WriteLine("PAGINA ACTUAL:\n" + pila.Peek());
+            Console.WriteLine();
+            
+            
+            
+            Console.WriteLine("---- historial restante ---");
+
+            foreach (string historial in pila)
+            {
+                {
+                    
+                    Console.WriteLine(historial); 
+                }
+            }    
+        }   
 
 
 
-
-
-
-        }
-
-
-        
     }
 }
