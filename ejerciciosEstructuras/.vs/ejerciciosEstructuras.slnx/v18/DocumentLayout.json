@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\coper\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\",
+  "WorkspaceRootPath": "C:\\Users\\Alumno1\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BE2A0EB-1DA6-2388-C480-44D7C1B49FAB}|ejerciciosEstructuras\\ejerciciosEstructuras.csproj|c:\\users\\coper\\documents\\estructuradedatos\\ejerciciosestructuras\\ejerciciosestructuras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BE2A0EB-1DA6-2388-C480-44D7C1B49FAB}|ejerciciosEstructuras\\ejerciciosEstructuras.csproj|c:\\users\\alumno1\\documents\\estructuradedatos\\ejerciciosestructuras\\ejerciciosestructuras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BE2A0EB-1DA6-2388-C480-44D7C1B49FAB}|ejerciciosEstructuras\\ejerciciosEstructuras.csproj|solutionrelative:ejerciciosestructuras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\coper\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\ejerciciosEstructuras\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno1\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\ejerciciosEstructuras\\Program.cs",
               "RelativeDocumentMoniker": "ejerciciosEstructuras\\Program.cs",
-              "ToolTip": "C:\\Users\\coper\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\ejerciciosEstructuras\\Program.cs",
+              "ToolTip": "C:\\Users\\Alumno1\\Documents\\EstructuraDeDatos\\ejerciciosEstructuras\\ejerciciosEstructuras\\Program.cs",
               "RelativeToolTip": "ejerciciosEstructuras\\Program.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAmwIQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAwwH8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T13:11:29.288Z",
               "EditorCaption": ""

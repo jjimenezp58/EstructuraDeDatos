@@ -68,70 +68,100 @@
              }
 
              Console.WriteLine("\nProductos restantes: " + 
-                 listaDeCompra.Count);*/
+                 listaDeCompra.Count);
 
 
 
             //EJERCICIO 3
 
 
-            
-            List<string> GestorTareas = new List<string>
-            {
-                "Estudiar c#",
-                "Hacer Ejercicio",
-                "Comprar Comida",
-                "Ver una pelicula"
-            };
 
-            int opcionUsuario = 0;
+             List<string> GestorTareas = new List<string>
+             {
+                 "Estudiar c#",
+                 "Hacer Ejercicio",
+                 "Comprar Comida",
+                 "Ver una pelicula"
+             };
 
-            while (opcionUsuario != 6)
-            {
+             int opcionUsuario = 0;
 
-                Console.WriteLine("=== MIS TAREAS ===");
-                Console.WriteLine("1. Mostrar Tareas: ");
-                Console.WriteLine("2. Añadir Tareas: ");
-                Console.WriteLine("3. Completar Tarea: ");
-                Console.WriteLine("4. Buscar Tarea: ");
-                Console.WriteLine("5. Ordenar Tarea: ");
-                Console.WriteLine("6. Salir: ");
-                Console.Write("Opción:");
-                opcionUsuario = int.Parse(Console.ReadLine() ?? "");
+             while (opcionUsuario != 6)
+             {
 
-
-                switch (opcionUsuario)
-                {
-                    case 1:
-                        foreach (string tarea in GestorTareas)
-                        {
-                            Console.WriteLine($"{tarea}");
-                        }
-                        break;
-                    case 2:
-                        Console.WriteLine("Caso 2");
-                        break;
-                    case 3:
-                        Console.WriteLine("Caso 3");
-                        break;
-                    case 4:
-                        Console.WriteLine("Caso 4");
-                        break;
-                    case 5:
-                        Console.WriteLine("Caso 5");
-                        break;
-                    case 6:
-                        Console.WriteLine("Caso 6");
-                        break;
-                    default:
-                        Console.WriteLine("¡Opción no válida!");
-                        break;
-
-                }
+                 Console.WriteLine("=== MIS TAREAS ===");
+                 Console.WriteLine("1. Mostrar Tareas: ");
+                 Console.WriteLine("2. Añadir Tareas: ");
+                 Console.WriteLine("3. Completar Tarea: ");
+                 Console.WriteLine("4. Buscar Tarea: ");
+                 Console.WriteLine("5. Ordenar Tarea: ");
+                 Console.WriteLine("6. Salir: ");
+                 Console.Write("Opción:");
+                 opcionUsuario = int.Parse(Console.ReadLine() ?? "");
 
 
+                 switch (opcionUsuario)
+                 {
+                     case 1:
+                         foreach (string tarea in GestorTareas)
+                         {
+                             Console.WriteLine($"{tarea}");
+                         }
+                         break;
+                     case 2:
+                         Console.WriteLine("Caso 2");
+                         break;
+                     case 3:
+                         Console.WriteLine("Caso 3");
+                         break;
+                     case 4:
+                         Console.WriteLine("Caso 4");
+                         break;
+                     case 5:
+                         Console.WriteLine("Caso 5");
+                         break;
+                     case 6:
+                         Console.WriteLine("Caso 6");
+                         break;
+                     default:
+                         Console.WriteLine("¡Opción no válida!");
+                         break;} 
+                  
 
-            }    
+
+
+
+                        // PILAS : EJECICIO 4
+
+                Stack<string> pila = new Stack<string>();
+
+                pila.Push("Escribir texto");
+                pila.Push("Cambiar color");
+                pila.Push("Insertar imagen");
+                pila.Push("Eliminar imagen");
+
+                  Console.WriteLine("===  HISTORIAL  ===");
+
+                  Console.WriteLine("Última acción: " + pila.Peek());
+                  Console.WriteLine( "Desacer: " + pila.Pop());
+                  Console.WriteLine("Nueva última acción: " + pila.Peek());
+
+                 pila.Push("cabiar tamaño");
+                  Console.WriteLine("Nueva acción: " + pila.Peek()); */
+                 
+
+
+
+
+
+
+
+
+
+
         }
+
+
+        
     }
 }
