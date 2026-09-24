@@ -1,0 +1,14 @@
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.AssemblyInfoInputs.cache
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.AssemblyInfo.cs
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.csproj.CoreCompileInputs.cache
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\bin\Debug\net10.0\ejerciciosEstructuras.exe
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\bin\Debug\net10.0\ejerciciosEstructuras.deps.json
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\bin\Debug\net10.0\ejerciciosEstructuras.runtimeconfig.json
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\bin\Debug\net10.0\ejerciciosEstructuras.dll
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\bin\Debug\net10.0\ejerciciosEstructuras.pdb
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.dll
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\refint\ejerciciosEstructuras.dll
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.pdb
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ejerciciosEstructuras.genruntimeconfig.cache
+C:\Users\coper\Documents\EstructuraDeDatos\ejerciciosEstructuras\ejerciciosEstructuras\obj\Debug\net10.0\ref\ejerciciosEstructuras.dll
