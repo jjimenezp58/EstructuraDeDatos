@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Reflection.Emit;
 
 namespace ejerciciosEstructuras
 {
@@ -149,7 +150,7 @@ namespace ejerciciosEstructuras
                   Console.WriteLine("Nueva última acción: " + pila.Peek());
 
                  pila.Push("cabiar tamaño");
-                  Console.WriteLine("Nueva acción: " + pila.Peek()); */
+                  Console.WriteLine("Nueva acción: " + pila.Peek());
 
 
             // EJERCICIO 5 — NAVEGADOR WEB 
@@ -198,13 +199,108 @@ namespace ejerciciosEstructuras
             foreach (string historial in pila)
             {
                 {
-                    
-                    Console.WriteLine(historial); 
+
+                    Console.WriteLine(historial);
+                } 
+         
+     
+        
+            }  
+
+            //EJERCICIO 6
+
+
+            string[] Operaciones =
+            {
+            "(2 + 3) * (4 + 5)",
+            "((10 + 5) * 2)",
+            "(10 + 5))",
+            "((10 + 5)"
+             };
+
+            foreach (string texto in Operaciones)
+            {
+                Stack<char> pila = new Stack<char>();
+
+                foreach (char letra in texto)
+                {
+                    if (letra == '(')
+                    {
+                        pila.Push(letra);
+                    }
+                    else if (letra == ')')
+                    {
+                        if (pila.Count > 0)
+                            pila.Pop();
+                        else
+                        {
+                            pila.Push('X');
+                            break;
+                        }
+                    }
                 }
-            }    
-        }   
+
+                if (pila.Count == 0)
+                    Console.WriteLine(texto + " → Correcta");
+                else
+                    Console.WriteLine(texto + " → Incorrecta"); 
+         
+        
+            }*/
+
+
+            Queue<string> colaSuper = new();
+
+            colaSuper.Enqueue("Isabel");
+            colaSuper.Enqueue("Luis");
+            colaSuper.Enqueue("Carlos");
+            colaSuper.Enqueue("Marta");
+
+            Console.WriteLine("=== COLA DEL SUPERMERCADO ===");
+            Console.WriteLine();
+            Console.WriteLine("Primera persona: " + colaSuper.Peek());
+            Console.WriteLine();
+            colaSuper.Enqueue("Pedro");
+
+            Console.Write("Nueva persona:\nPedro");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Atendiendo a: " + colaSuper.Peek());
+
+            colaSuper.Dequeue();
+            Console.WriteLine("Atendiendo a: " + colaSuper.Peek());
+            Console.WriteLine();
+
+             
+            colaSuper.Dequeue();
+            Console.WriteLine("Ahora le toca a: " + colaSuper.Peek());
+            Console.WriteLine();
+
+            Console.WriteLine("Personas esperando: " + colaSuper.Count());
 
 
 
+
+        }
     }
+
+
+
+
+
+
+
 }
+    
+
+
+
+
+
+
+
+
+
+
+
+
